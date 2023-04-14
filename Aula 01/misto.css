@@ -1,0 +1,130 @@
+/* estilo Clássico */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3b3737;
+    font-family: 'Source Serif Pro';
+    }
+
+
+.a4-page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 25mm 29mm 25mm 29mm;
+    margin: 10mm auto;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/*Títulos*/
+h1 {
+    font-size: 24pt;
+    text-align: left;
+    text-indent: 0.75cm;
+    font-family: 'Marcellus SC', serif;
+    font-weight: 700;
+    margin-top: 12pt;
+    margin-bottom: 10pt;    
+    margin-top: 10;
+}
+
+h2 {
+    font-size: 22pt;
+    text-align: left;
+    text-indent: 0.75cm;
+    font-family: 'Marcellus SC', serif;
+    font-weight:600;
+    margin-top: 20pt;
+    margin-bottom: 10pt;
+
+
+}
+
+h3 {
+    font-size: 19pt;
+    text-align: left;
+    text-indent: 0.75cm;
+    font-family: 'Marcellus SC', serif;
+    font-weight:600;
+    margin-top: 20pt;
+    
+    
+}
+
+/* Parágrafo */
+
+p {
+    text-align: justify;
+    text-indent: 0.75cm;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    margin-bottom: 6pt;    
+    margin-top: 6pt;
+
+    
+}
+
+blockquote {
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11pt;
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    margin-left: 0.75cm;
+    line-height: 1.4;
+}
+
+/* Tabela */
+
+table {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    margin-left: 0.75cm;
+    border-collapse: collapse;
+    border: 0.5px solid rgba(0, 0, 0, 0.148);
+    width: calc(100% - 0.75cm);
+    font-size: 11pt;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+th, td {
+    padding: 4px;
+    text-align: left;
+   
+
+}
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+            background-color: #f2f2f2;;
+        }
+
+
+/* Estilos para impressão */
+@media print {
+    .a4-page {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    body {
+        background-color: white;
+        margin: 0;
+    }
+}
