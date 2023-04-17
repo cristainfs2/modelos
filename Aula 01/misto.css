@@ -1,9 +1,9 @@
-/* estilo Clássico */
-
+/* Estilo Misto */
 
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,8 +13,7 @@
 body {
     background-color: #3b3737;
     font-family: 'Source Serif Pro';
-    }
-
+}
 
 .a4-page {
     width: 210mm;
@@ -23,10 +22,9 @@ body {
     margin: 10mm auto;
     background: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-
 }
 
-/*Títulos*/
+/* Títulos */
 h1 {
     font-size: 24pt;
     text-align: left;
@@ -34,7 +32,7 @@ h1 {
     font-family: 'Marcellus SC', serif;
     font-weight: 700;
     margin-top: 12pt;
-    margin-bottom: 10pt;    
+    margin-bottom: 10pt;
     margin-top: 10;
 }
 
@@ -43,11 +41,9 @@ h2 {
     text-align: left;
     text-indent: 0.75cm;
     font-family: 'Marcellus SC', serif;
-    font-weight:600;
+    font-weight: 600;
     margin-top: 20pt;
     margin-bottom: 10pt;
-
-
 }
 
 h3 {
@@ -55,13 +51,11 @@ h3 {
     text-align: left;
     text-indent: 0.75cm;
     font-family: 'Marcellus SC', serif;
-    font-weight:600;
+    font-weight: 600;
     margin-top: 20pt;
-    
-    
 }
 
-/* Parágrafo */
+/* Texto */
 
 p {
     text-align: justify;
@@ -69,10 +63,9 @@ p {
     font-family: 'Source Serif Pro', serif;
     font-size: 12pt;
     line-height: 1.5;
-    margin-bottom: 6pt;    
+    margin-bottom: 6pt;
     margin-top: 6pt;
 
-    
 }
 
 blockquote {
@@ -96,23 +89,21 @@ table {
     width: calc(100% - 0.75cm);
     font-size: 11pt;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 
-th, td {
+th,
+td {gK6H1g/GlknmmqGuWmA2VhkCspU0F7jr/0juzsx4i2k
     padding: 4px;
     text-align: left;
-   
-
 }
+
 th {
     background-color: #f2f2f2;
 }
 
 tr:nth-child(odd) {
-            background-color: #f2f2f2;;
-        }
-
+    background-color: #f2f2f2;
+}
 
 /* Estilos para impressão */
 @media print {
